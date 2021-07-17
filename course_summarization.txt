@@ -1,0 +1,9 @@
+# sigmoid function is defined as sigmoid(x) = 1/(1+e-x), returns the probability
+of each point to have each label for binary classification.
+
+# softmax function, which is the equivalent of the sigmoid activation function,
+ but when the problem has 3 or more classes
+
+
+# exponential function only returns positive values so it solves 
+our problem in cases where we might divide by zero.
