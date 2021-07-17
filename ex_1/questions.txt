@@ -1,3 +1,13 @@
 1. Why do we check if y[i]-y_hat == 0 instead of if y_hat == 0?
 2. why do we calculate the new weight and bias on X[i][0] and X[i][1]
     instead of on X[i]? how comes we have two values in X[i]?
+
+
+Answers-
+1. It's just a different ways of checking, my way has two ifs and the 
+solution's way has 1 if.
+2. because x is 2-dimensional and we need to iterate over the dimenions
+and update each's weight. a smarter way to do this would be to write a
+helper function that gets the current weight and whether to negate or not
+-> calculates the new weight and returns it and then iterate over
+the dimensions and calculate it on each via the function.
